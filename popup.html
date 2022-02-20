@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scroller</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+      <style>
+        html, body {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          margin: 0;
+          min-height: 180px;
+          padding: 0;
+          width: 384px;
+        }
+
+        h1 {
+          font-family: 'Menlo', monospace;
+          font-size: 22px;
+          font-weight: 400;
+          margin: 0;
+          color: #2f5876;
+        }
+
+        a:link, a:visited{
+          color: #0000;
+          outline: 0;
+          text-decoration: none;
+        }
+
+        img {
+          width: 30px;
+        }
+
+        .modal-header {
+          align-items: center;
+          border-bottom: 0.5px solid #dadada;
+        }
+
+        .modal-content {
+          padding: 0 22px;
+        }
+
+        .modal-icons {
+          border-top: 0.5px solid #dadada;
+          height: 50px;
+          width: 100%;
+        }
+
+        .logo {
+          padding: 16px;
+        }
+
+        .logo-icon {
+          vertical-align: text-bottom;
+          margin-right: 12px;
+        }
+
+        .version {
+          color: #444;
+          font-size: 18px;
+        }
+
+        .flex-container {
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 22px;
+        }
+
+        .flex {
+          opacity: 1;
+          transition: opacity 0.2s ease-in-out;
+          width: 120px;
+        }
+
+        .flex: hover {
+          opacity: 0.4;
+        }
+
+        .flex .fa {
+          font-size: 40px;
+          color: #2f5876;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img src="images/Ready.jpg" alt="Scroller" class="logo-icon"> Scroller
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>let the scrolling began</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.github.com/tknishh" target="_blank">
+          <i class="fa fa-github"></i></a>
+        </div>
+        <div class="flex">
+          <a href="https://www.github.com/tknishh" target="_blank">
+          <i class="fa fa-github"></i></a>
+        </div>
+        <div class="flex">
+          <a href="https://www.github.com/tknishh" target="_blank">
+          <i class="fa fa-github"></i></a>
+        </div>
+        <div class="flex">
+          <a href="https://www.github.com/tknishh" target="_blank">
+          <i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

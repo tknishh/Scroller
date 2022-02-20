@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Scroller",
+  "description": "Scroll through your browser without getting up from your bed.",
+  "version": "1.0.0",
+  "icons": {"128":"ft9.jpg"},
+  "browser_action": {
+    "default_icon": "ft9.jpg",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
