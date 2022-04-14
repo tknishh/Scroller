@@ -1,2 +1,3 @@
 # Scroller
- Lets you scroll through web without even getting up from your bed.
+Made for lazy users who'd prefer having a way to scroll through your browser without getting up from Bed
+
